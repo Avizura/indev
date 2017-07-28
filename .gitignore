@@ -1,0 +1,12 @@
+/dist
+/node_modules
+/npm-debug.log
+/coverage
+/.tmp
+
+npm-debug.log
+
+.idea
+.DS_Store
+.projectile
+.vscode

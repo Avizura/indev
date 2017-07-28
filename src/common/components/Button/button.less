@@ -1,0 +1,25 @@
+@import '../../../assets/less/vars';
+
+.button() {
+  border: 0px;
+  font-size: 18px;
+  font-weight: 300;
+  height: 44px;
+  width: 144px;
+}
+
+.button {
+  .button();
+
+  &--primary {
+    .button();
+    background-color: @primary;
+    color: #ffffff;
+  }
+
+  &--default {
+    .button();
+    background-color: @default;
+    color: #000000;
+  }
+}

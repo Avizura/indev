@@ -1,0 +1,8 @@
+{
+  "fileExtensions": [".less", ".css"],
+
+  "zeroUnit": {
+    "enabled": true,
+    "exclude": ["flex"]
+  }
+}
